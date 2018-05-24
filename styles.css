@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+*{
+  font-family: 'Kavivanar', cursive;
+}
+body{
+    background-image: url(https://blogsimages.adobe.com/creativecloud/files/2017/02/freelancehead.jpg);
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(235, 230, 163);
+}
+h2{
+    font-size: 18pt;
+    color: rgb(235, 230, 163);
+}
+.res{
+    font-size: 15pt;
+    color: rgb(235, 230, 163);
+}
+
+cite, h2{
+    color: rgb(235, 230, 163);
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    color: rgb(225, 228, 230);
+    background-color: #4b190d;
+    padding: 17px 13px;
+    margin-top: 15px;
+}
+label {
+    display: block;
+    color: rgb(225, 228, 230);
+    font-size: 17pt;   
+}
+
+input {
+    border-radius: 5px;
+    background-color: #9c685b;
+    border: none;
+    padding: 15px;
+    color: #393d07;
+    font-size: 20px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number]:focus {
+    background-color: rgba(183, 218, 136, 0.281);
+}
